@@ -1,0 +1,6 @@
+framework module KTools {
+  umbrella header "KTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

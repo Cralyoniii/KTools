@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06AEF7342B6A0EE2375C63F89DDB3AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		098B4A8F08EDA7D637DFDDF628B8F3EA /* KTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DACB120B2C9B4BBDD1051E3ACBFD5925 /* KTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298A1B66771866BAB69E115B3D7746D0 /* NSDate+KCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AD510AE695CE110EBCDD82FC991F464D /* NSDate+KCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3417178FDB92AB913E1851E00DC14EFD /* KTools.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899AE4671468D58B65E254D8D4F5F38C /* KTools.xcassets */; };
+		37C021EE53D748934B54383F9D3FE0D1 /* Pods-KTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B784017D9C2FD15E74B990286A0165C /* Pods-KTools-dummy.m */; };
+		4897B0F47868CECD889A4DD61E887398 /* KToolsMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3203CBA5D79DB08A8C1E5919DA2DEC95 /* KToolsMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518F3CA91F9F6D3882F3DC65F43E59EF /* KToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0B523B1B2C6DC5279D1D19E15AC7B4 /* KToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C21BAD5E20CB48320AB9FC777CAFCF5 /* KTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776130694437D9F4B856BD61BC92B3DE /* KTools-dummy.m */; };
+		68C3EC6244C68A32EDF1B520781EE0D1 /* UIButton+KEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B92FA600730A9F9C9AF3C9FB8DEC6 /* UIButton+KEdgeInsets.m */; };
+		76D1C6FF153C30001CCE9BE328F96672 /* NSError+KInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C901CF5BEB1A36D2FFD41F865343535B /* NSError+KInfo.m */; };
+		76F7FD48FB8094D4D5A8687B7F6DBE52 /* NSString+KBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC8AEB6D25AFC100DA2BF9C825761B8 /* NSString+KBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBF0DDB3F03C0EF1458D55E21992F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		8BF1E0B7497AE3F1336B61441B66B078 /* NSDate+KCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 879FA56239BC92363B610D43775982E0 /* NSDate+KCategory.m */; };
+		B9F4FF2E5E897F9EAA6C89E586E7EED0 /* NSError+KInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2B8C8CC02032516A6D2C7426983338 /* NSError+KInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCFB3C3358503BA486B6A9F5F5B23E69 /* KTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C304477199387217E92F93214039B /* KTools.m */; };
+		C7F774CF739E0EAA2A20FD02AD835993 /* KTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09448EDB9B36F7F79CB5A9C5FFFF8C72 /* KTools.bundle */; };
+		D01552DD4CA4D3BF7C10E275EF0C4885 /* NSString+KRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = DACBF68A37B04E1F9F9C39478AEE9D2C /* NSString+KRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D896F493C1993FBA59CFC4E2783FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		D2032014C9784DF59C1010E22906C344 /* Pods-KTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF5B5D3B1991CAF243547E04A9D6AB9 /* Pods-KTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB658527357B9DF16213F192E93F5EAE /* UIButton+KEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE08AAE840D5DE3FD67FD5711B529BF /* UIButton+KEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30A5677CE7BE8C5BA0780009AE0F218 /* NSString+KBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5770F8D458454A7912F4375457A7543D /* NSString+KBase64.m */; };
+		FB38278B4B16227B74509F426FC9E825 /* KTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1518A7FFE398D0732DEF4D50FDF426 /* KTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC59DA3643E3A63AA02163EC86BAEA5 /* NSString+KRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = A79C9D79CC43D4229DBC2CF61A9C7EB5 /* NSString+KRegex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0098BE9299BBB4B3651CC9D723AAB386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E39D50975DCD3D71C6785729A7B90CC4;
+			remoteInfo = "KTools-KTools";
+		};
+		6AEAD4C73D7CA21318783BA76404F35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3EFE19A6B6D9F0D09B85042B8F1871;
+			remoteInfo = KTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0640978AD22AEACE1C6BB5AF90E75B50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		09448EDB9B36F7F79CB5A9C5FFFF8C72 /* KTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KTools.bundle; path = "KTools-KTools.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09776689A2731600C8D0A12118EBCB11 /* Pods-KTools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTools-frameworks.sh"; sourceTree = "<group>"; };
+		0DD0E462AB23324B4531FA57208C0A4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0FC1BBAAEAC75D579B7BA4C2DB8267DF /* Pods-KTools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTools-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12C6EDC8057DB53059E4318B9C062FF1 /* Pods-KTools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTools-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B784017D9C2FD15E74B990286A0165C /* Pods-KTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTools-dummy.m"; sourceTree = "<group>"; };
+		253C304477199387217E92F93214039B /* KTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTools.m; path = KTools/1_Tools/KTools.m; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		319E2DF021C7146D2E16872FAE829725 /* Pods-KTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTools-Info.plist"; sourceTree = "<group>"; };
+		3203CBA5D79DB08A8C1E5919DA2DEC95 /* KToolsMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KToolsMacro.h; path = KTools/1_Tools/KToolsMacro.h; sourceTree = "<group>"; };
+		351A777D1FE017F5532DE8D8436C8BDE /* KTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CC8AEB6D25AFC100DA2BF9C825761B8 /* NSString+KBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+KBase64.h"; sourceTree = "<group>"; };
+		56CCEFD48E3D03A340E5AE597E86197B /* Pods-KTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTools.debug.xcconfig"; sourceTree = "<group>"; };
+		5770F8D458454A7912F4375457A7543D /* NSString+KBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+KBase64.m"; sourceTree = "<group>"; };
+		5EE94F50F8295B686DDC1BEF87A2953D /* KTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTools.xcconfig; sourceTree = "<group>"; };
+		606DC0B10F95478C59242C3FD1832615 /* KTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTools-prefix.pch"; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		776130694437D9F4B856BD61BC92B3DE /* KTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTools-dummy.m"; sourceTree = "<group>"; };
+		7B2B8C8CC02032516A6D2C7426983338 /* NSError+KInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+KInfo.h"; sourceTree = "<group>"; };
+		7D0B523B1B2C6DC5279D1D19E15AC7B4 /* KToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KToolsHeader.h; path = KTools/0_Base/KToolsHeader.h; sourceTree = "<group>"; };
+		879FA56239BC92363B610D43775982E0 /* NSDate+KCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KCategory.m"; sourceTree = "<group>"; };
+		899AE4671468D58B65E254D8D4F5F38C /* KTools.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = KTools.xcassets; path = KTools/0_Base/KTools.xcassets; sourceTree = "<group>"; };
+		8A7D7387DADCD16A7FCBADF9D37E48AB /* Pods-KTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KTools.modulemap"; sourceTree = "<group>"; };
+		8F1518A7FFE398D0732DEF4D50FDF426 /* KTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTools.h; path = KTools/1_Tools/KTools.h; sourceTree = "<group>"; };
+		9DD7EC9F246D75DD9412321DFF439A17 /* KTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KTools.modulemap; sourceTree = "<group>"; };
+		9E968475327C231621644ED0A2583D85 /* KTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KTools.framework; path = KTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79C9D79CC43D4229DBC2CF61A9C7EB5 /* NSString+KRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+KRegex.m"; sourceTree = "<group>"; };
+		AD510AE695CE110EBCDD82FC991F464D /* NSDate+KCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+KCategory.h"; sourceTree = "<group>"; };
+		AFE08AAE840D5DE3FD67FD5711B529BF /* UIButton+KEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+KEdgeInsets.h"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B41265A4B2A0602E566BEE78BBD16BB0 /* Pods-KTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTools.release.xcconfig"; sourceTree = "<group>"; };
+		B66C9F785E853285295F78910A8C10D9 /* Pods_KTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTools.framework; path = "Pods-KTools.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26B92FA600730A9F9C9AF3C9FB8DEC6 /* UIButton+KEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KEdgeInsets.m"; sourceTree = "<group>"; };
+		C367AE95B6B1A36B1FFBFE5FB4CA93D9 /* KTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KTools-Info.plist"; sourceTree = "<group>"; };
+		C901CF5BEB1A36D2FFD41F865343535B /* NSError+KInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+KInfo.m"; sourceTree = "<group>"; };
+		CAF5B5D3B1991CAF243547E04A9D6AB9 /* Pods-KTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTools-umbrella.h"; sourceTree = "<group>"; };
+		D8FD54D67FA02FAFBF1E8C159D9F66F3 /* ResourceBundle-KTools-KTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KTools-KTools-Info.plist"; sourceTree = "<group>"; };
+		DACB120B2C9B4BBDD1051E3ACBFD5925 /* KTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTools-umbrella.h"; sourceTree = "<group>"; };
+		DACBF68A37B04E1F9F9C39478AEE9D2C /* NSString+KRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+KRegex.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA5B364B85CCD563B0DA732F2488F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFE7967545F79E4405188B957864E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBF0DDB3F03C0EF1458D55E21992F0F /* Foundation.framework in Frameworks */,
+				D0D896F493C1993FBA59CFC4E2783FA2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE0AB43239FF3C99EBA5C8E5237F7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AEF7342B6A0EE2375C63F89DDB3AB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D32BBD4B9FC4FBD804C2CBEB2BE49F /* Pods-KTools */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D7387DADCD16A7FCBADF9D37E48AB /* Pods-KTools.modulemap */,
+				0FC1BBAAEAC75D579B7BA4C2DB8267DF /* Pods-KTools-acknowledgements.markdown */,
+				12C6EDC8057DB53059E4318B9C062FF1 /* Pods-KTools-acknowledgements.plist */,
+				1B784017D9C2FD15E74B990286A0165C /* Pods-KTools-dummy.m */,
+				09776689A2731600C8D0A12118EBCB11 /* Pods-KTools-frameworks.sh */,
+				319E2DF021C7146D2E16872FAE829725 /* Pods-KTools-Info.plist */,
+				CAF5B5D3B1991CAF243547E04A9D6AB9 /* Pods-KTools-umbrella.h */,
+				56CCEFD48E3D03A340E5AE597E86197B /* Pods-KTools.debug.xcconfig */,
+				B41265A4B2A0602E566BEE78BBD16BB0 /* Pods-KTools.release.xcconfig */,
+			);
+			name = "Pods-KTools";
+			path = "Target Support Files/Pods-KTools";
+			sourceTree = "<group>";
+		};
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		380732D93469BF690EF6C117EB21C3D3 /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				7B2B8C8CC02032516A6D2C7426983338 /* NSError+KInfo.h */,
+				C901CF5BEB1A36D2FFD41F865343535B /* NSError+KInfo.m */,
+			);
+			name = NSError;
+			path = KTools/2_Category/NSError;
+			sourceTree = "<group>";
+		};
+		395981B6562B1EB5BD720030B9845EB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7EC9F246D75DD9412321DFF439A17 /* KTools.modulemap */,
+				5EE94F50F8295B686DDC1BEF87A2953D /* KTools.xcconfig */,
+				776130694437D9F4B856BD61BC92B3DE /* KTools-dummy.m */,
+				C367AE95B6B1A36B1FFBFE5FB4CA93D9 /* KTools-Info.plist */,
+				606DC0B10F95478C59242C3FD1832615 /* KTools-prefix.pch */,
+				DACB120B2C9B4BBDD1051E3ACBFD5925 /* KTools-umbrella.h */,
+				D8FD54D67FA02FAFBF1E8C159D9F66F3 /* ResourceBundle-KTools-KTools-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KTools";
+			sourceTree = "<group>";
+		};
+		3AF207295BFB7BB6767EA919E9A6AC6E /* UIFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				AFE08AAE840D5DE3FD67FD5711B529BF /* UIButton+KEdgeInsets.h */,
+				C26B92FA600730A9F9C9AF3C9FB8DEC6 /* UIButton+KEdgeInsets.m */,
+			);
+			name = UIFoundation;
+			path = KTools/2_Category/UIFoundation;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515A5EE03B3F24B1423C0AE7D0192F1D /* 2_Category */ = {
+			isa = PBXGroup;
+			children = (
+				CFA37E4A32D3F56E2A206C79B9A9FBE4 /* NSDate */,
+				380732D93469BF690EF6C117EB21C3D3 /* NSError */,
+				69543C94C1DED219E52DD56800A35581 /* NSString */,
+				3AF207295BFB7BB6767EA919E9A6AC6E /* UIFoundation */,
+			);
+			name = 2_Category;
+			sourceTree = "<group>";
+		};
+		69543C94C1DED219E52DD56800A35581 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				3CC8AEB6D25AFC100DA2BF9C825761B8 /* NSString+KBase64.h */,
+				5770F8D458454A7912F4375457A7543D /* NSString+KBase64.m */,
+				DACBF68A37B04E1F9F9C39478AEE9D2C /* NSString+KRegex.h */,
+				A79C9D79CC43D4229DBC2CF61A9C7EB5 /* NSString+KRegex.m */,
+			);
+			name = NSString;
+			path = KTools/2_Category/NSString;
+			sourceTree = "<group>";
+		};
+		6B912C51480345D146417308E706AF56 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				351A777D1FE017F5532DE8D8436C8BDE /* KTools.podspec */,
+				0640978AD22AEACE1C6BB5AF90E75B50 /* LICENSE */,
+				0DD0E462AB23324B4531FA57208C0A4A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		712C990DE2258CB1B9187CE2A16F4942 /* KTools */ = {
+			isa = PBXGroup;
+			children = (
+				C7692250E47B25388D95FC0E00E483FA /* 0_Base */,
+				BE0A503402BF1FAE5E499B3236E23559 /* 1_Tools */,
+				515A5EE03B3F24B1423C0AE7D0192F1D /* 2_Category */,
+				6B912C51480345D146417308E706AF56 /* Pod */,
+				395981B6562B1EB5BD720030B9845EB5 /* Support Files */,
+			);
+			name = KTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				D068A365496C0B749D3A023B95482F88 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				90F6154BA23F7B8EE63171590153DFCA /* Products */,
+				8EDAA9687E9C3D7647BDE59DA7C6E577 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDAA9687E9C3D7647BDE59DA7C6E577 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02D32BBD4B9FC4FBD804C2CBEB2BE49F /* Pods-KTools */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		90F6154BA23F7B8EE63171590153DFCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09448EDB9B36F7F79CB5A9C5FFFF8C72 /* KTools.bundle */,
+				9E968475327C231621644ED0A2583D85 /* KTools.framework */,
+				B66C9F785E853285295F78910A8C10D9 /* Pods_KTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0A503402BF1FAE5E499B3236E23559 /* 1_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8F1518A7FFE398D0732DEF4D50FDF426 /* KTools.h */,
+				253C304477199387217E92F93214039B /* KTools.m */,
+				3203CBA5D79DB08A8C1E5919DA2DEC95 /* KToolsMacro.h */,
+			);
+			name = 1_Tools;
+			sourceTree = "<group>";
+		};
+		C7692250E47B25388D95FC0E00E483FA /* 0_Base */ = {
+			isa = PBXGroup;
+			children = (
+				7D0B523B1B2C6DC5279D1D19E15AC7B4 /* KToolsHeader.h */,
+				FA014542421DF7B8677B4157F7A56A03 /* Resources */,
+			);
+			name = 0_Base;
+			sourceTree = "<group>";
+		};
+		CFA37E4A32D3F56E2A206C79B9A9FBE4 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				AD510AE695CE110EBCDD82FC991F464D /* NSDate+KCategory.h */,
+				879FA56239BC92363B610D43775982E0 /* NSDate+KCategory.m */,
+			);
+			name = NSDate;
+			path = KTools/2_Category/NSDate;
+			sourceTree = "<group>";
+		};
+		D068A365496C0B749D3A023B95482F88 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				712C990DE2258CB1B9187CE2A16F4942 /* KTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FA014542421DF7B8677B4157F7A56A03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				899AE4671468D58B65E254D8D4F5F38C /* KTools.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257EE90E4E093ECC9715E64C44CC851F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098B4A8F08EDA7D637DFDDF628B8F3EA /* KTools-umbrella.h in Headers */,
+				FB38278B4B16227B74509F426FC9E825 /* KTools.h in Headers */,
+				518F3CA91F9F6D3882F3DC65F43E59EF /* KToolsHeader.h in Headers */,
+				4897B0F47868CECD889A4DD61E887398 /* KToolsMacro.h in Headers */,
+				298A1B66771866BAB69E115B3D7746D0 /* NSDate+KCategory.h in Headers */,
+				B9F4FF2E5E897F9EAA6C89E586E7EED0 /* NSError+KInfo.h in Headers */,
+				76F7FD48FB8094D4D5A8687B7F6DBE52 /* NSString+KBase64.h in Headers */,
+				D01552DD4CA4D3BF7C10E275EF0C4885 /* NSString+KRegex.h in Headers */,
+				DB658527357B9DF16213F192E93F5EAE /* UIButton+KEdgeInsets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5C54CA6E6038C23C4A43225E201C6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2032014C9784DF59C1010E22906C344 /* Pods-KTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14BBAF8C9648885280EC2FA3CB9C065F /* Pods-KTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F84B0C9414DE1526CAA9C57CB52261 /* Build configuration list for PBXNativeTarget "Pods-KTools" */;
+			buildPhases = (
+				BD5C54CA6E6038C23C4A43225E201C6A /* Headers */,
+				8A10BF26C11CF7A802AC8DB003B4AD72 /* Sources */,
+				6FE0AB43239FF3C99EBA5C8E5237F7E1 /* Frameworks */,
+				D4C631E511CF83BBBBCC1712485CB0F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DAE2673E8FB2B913CEA52F35D438599 /* PBXTargetDependency */,
+			);
+			name = "Pods-KTools";
+			productName = "Pods-KTools";
+			productReference = B66C9F785E853285295F78910A8C10D9 /* Pods_KTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B3EFE19A6B6D9F0D09B85042B8F1871 /* KTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E727F5C1BE652F106E8E70EDBC567779 /* Build configuration list for PBXNativeTarget "KTools" */;
+			buildPhases = (
+				257EE90E4E093ECC9715E64C44CC851F /* Headers */,
+				886F2143FBE57FFB34EEBD25B7705407 /* Sources */,
+				6AFE7967545F79E4405188B957864E04 /* Frameworks */,
+				93DAF244B8FF44027E072413CD985B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13F3667E505F60EFBF2DFB2578EA1AF /* PBXTargetDependency */,
+			);
+			name = KTools;
+			productName = KTools;
+			productReference = 9E968475327C231621644ED0A2583D85 /* KTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E39D50975DCD3D71C6785729A7B90CC4 /* KTools-KTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3735087AFA0984CC5D0032908354A97B /* Build configuration list for PBXNativeTarget "KTools-KTools" */;
+			buildPhases = (
+				22445DBF262D54DD14BA5EED5391F762 /* Sources */,
+				4FA5B364B85CCD563B0DA732F2488F11 /* Frameworks */,
+				D75A76A9108A7800B8400E5E2FEAB1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KTools-KTools";
+			productName = "KTools-KTools";
+			productReference = 09448EDB9B36F7F79CB5A9C5FFFF8C72 /* KTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 90F6154BA23F7B8EE63171590153DFCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B3EFE19A6B6D9F0D09B85042B8F1871 /* KTools */,
+				E39D50975DCD3D71C6785729A7B90CC4 /* KTools-KTools */,
+				14BBAF8C9648885280EC2FA3CB9C065F /* Pods-KTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DAF244B8FF44027E072413CD985B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F774CF739E0EAA2A20FD02AD835993 /* KTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C631E511CF83BBBBCC1712485CB0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75A76A9108A7800B8400E5E2FEAB1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3417178FDB92AB913E1851E00DC14EFD /* KTools.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22445DBF262D54DD14BA5EED5391F762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886F2143FBE57FFB34EEBD25B7705407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C21BAD5E20CB48320AB9FC777CAFCF5 /* KTools-dummy.m in Sources */,
+				BCFB3C3358503BA486B6A9F5F5B23E69 /* KTools.m in Sources */,
+				8BF1E0B7497AE3F1336B61441B66B078 /* NSDate+KCategory.m in Sources */,
+				76D1C6FF153C30001CCE9BE328F96672 /* NSError+KInfo.m in Sources */,
+				E30A5677CE7BE8C5BA0780009AE0F218 /* NSString+KBase64.m in Sources */,
+				FBC59DA3643E3A63AA02163EC86BAEA5 /* NSString+KRegex.m in Sources */,
+				68C3EC6244C68A32EDF1B520781EE0D1 /* UIButton+KEdgeInsets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A10BF26C11CF7A802AC8DB003B4AD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C021EE53D748934B54383F9D3FE0D1 /* Pods-KTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DAE2673E8FB2B913CEA52F35D438599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTools;
+			target = 6B3EFE19A6B6D9F0D09B85042B8F1871 /* KTools */;
+			targetProxy = 6AEAD4C73D7CA21318783BA76404F35E /* PBXContainerItemProxy */;
+		};
+		F13F3667E505F60EFBF2DFB2578EA1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KTools-KTools";
+			target = E39D50975DCD3D71C6785729A7B90CC4 /* KTools-KTools */;
+			targetProxy = 0098BE9299BBB4B3651CC9D723AAB386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		105F90BF10F8688032FB629A9DA204FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2AAA85232D090FFA843B22FDDA2F979A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE94F50F8295B686DDC1BEF87A2953D /* KTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KTools";
+				INFOPLIST_FILE = "Target Support Files/KTools/ResourceBundle-KTools-KTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = KTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4523AD7643ED91A440EAEA20025EC111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B20028EA3B7DA2B5D910512C73CB036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE94F50F8295B686DDC1BEF87A2953D /* KTools.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KTools/KTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KTools/KTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KTools/KTools.modulemap";
+				PRODUCT_MODULE_NAME = KTools;
+				PRODUCT_NAME = KTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		809B105A7BE4C4AAF9EDE5E83F070973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41265A4B2A0602E566BEE78BBD16BB0 /* Pods-KTools.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KTools/Pods-KTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KTools/Pods-KTools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2F13AC00201CD8364C29A8DFC490B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE94F50F8295B686DDC1BEF87A2953D /* KTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KTools";
+				INFOPLIST_FILE = "Target Support Files/KTools/ResourceBundle-KTools-KTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = KTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C3CA83E97FB51AF455CDCE5C214C613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE94F50F8295B686DDC1BEF87A2953D /* KTools.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KTools/KTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KTools/KTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KTools/KTools.modulemap";
+				PRODUCT_MODULE_NAME = KTools;
+				PRODUCT_NAME = KTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0A8D8E04FB766AA683235DF22CF2E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CCEFD48E3D03A340E5AE597E86197B /* Pods-KTools.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KTools/Pods-KTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KTools/Pods-KTools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105F90BF10F8688032FB629A9DA204FD /* Debug */,
+				4523AD7643ED91A440EAEA20025EC111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3735087AFA0984CC5D0032908354A97B /* Build configuration list for PBXNativeTarget "KTools-KTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAA85232D090FFA843B22FDDA2F979A /* Debug */,
+				B2F13AC00201CD8364C29A8DFC490B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F84B0C9414DE1526CAA9C57CB52261 /* Build configuration list for PBXNativeTarget "Pods-KTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A8D8E04FB766AA683235DF22CF2E91 /* Debug */,
+				809B105A7BE4C4AAF9EDE5E83F070973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E727F5C1BE652F106E8E70EDBC567779 /* Build configuration list for PBXNativeTarget "KTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B20028EA3B7DA2B5D910512C73CB036 /* Debug */,
+				C3CA83E97FB51AF455CDCE5C214C613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

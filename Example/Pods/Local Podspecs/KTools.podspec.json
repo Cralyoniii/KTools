@@ -1,0 +1,47 @@
+{
+  "name": "KTools",
+  "version": "0.0.1",
+  "summary": "A short description of KTools.",
+  "description": "主要用于存放基础工具类",
+  "homepage": "https://github.com/KimLinuxc/KTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KimLinuxc": "1038239369@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/KimLinuxc/KTools.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "UIKit",
+  "subspecs": [
+    {
+      "name": "1_Tools",
+      "source_files": "KTools/1_Tools/**/*.{h,m}"
+    },
+    {
+      "name": "2_Category",
+      "source_files": "KTools/2_Category/**/*.{h,m}"
+    },
+    {
+      "name": "0_Base",
+      "dependencies": {
+        "KTools/1_Tools": [
+
+        ],
+        "KTools/2_Category": [
+
+        ]
+      },
+      "source_files": "KTools/0_Base/**/*.{h,m}",
+      "resource_bundles": {
+        "KTools": "KTools/0_Base/*.xcassets"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 use_frameworks!
-target 'KTools_Tests' do
+target 'KTools' do
   pod 'KTools', :path => '../'
   
   

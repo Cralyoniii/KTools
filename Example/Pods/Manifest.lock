@@ -1,0 +1,24 @@
+PODS:
+  - KTools (0.0.1):
+    - KTools/0_Base (= 0.0.1)
+    - KTools/1_Tools (= 0.0.1)
+    - KTools/2_Category (= 0.0.1)
+  - KTools/0_Base (0.0.1):
+    - KTools/1_Tools
+    - KTools/2_Category
+  - KTools/1_Tools (0.0.1)
+  - KTools/2_Category (0.0.1)
+
+DEPENDENCIES:
+  - KTools (from `../`)
+
+EXTERNAL SOURCES:
+  KTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KTools: 610ec7edc21d56e7f806d4946d87440a1706ea7f
+
+PODFILE CHECKSUM: d5705aff24ab3bb754dd99cc6e8344224eb22d5e
+
+COCOAPODS: 1.6.0.beta.2
